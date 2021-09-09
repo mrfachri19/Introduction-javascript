@@ -13,6 +13,7 @@ let data = {
     phone: "1-770-736-8031 x56442",
     website: "hildegard.org",
     }
+const {street, city} = data.address
 
 let newData = {...data, name : 'Fachri maulana', email : 'fachryfachry1997@gmail.com',hobby : ['Basket', 'Music', 'pushrank']
 }
